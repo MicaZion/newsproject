@@ -1,0 +1,89 @@
+/**index.wxss**/
+/**
+swiper {
+  height: 400rpx;
+}
+
+swiper image {
+  width: 100%;
+  height: 100%;
+}
+
+#news-list {
+  min-height: 600rpx;
+  padding: 15rpx;
+}
+
+.list-item {
+  border-bottom: 1rpx solid gray;
+}
+
+.list-item navigator {
+  width: 100%;
+  display: flex;
+}
+
+.list-item image {
+  width: 250rpx;
+  height: 150rpx;
+  margin: 10rpx;
+  flex-shrink: 0;
+}
+
+.news-title {
+  width: 100%;
+  display: block;
+  line-height: 60rpx;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.news-text {
+  margin: 10rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.news-date {
+  font-size: 10pt;
+}
+**/
+
+swiper {
+  height: 400rpx;
+}
+
+swiper image {
+  width: 100%;
+  height: 100%;
+}
+
+/* 整体新闻项容器样式 */
+.news-item-container {
+  display: flex; /* 使用flex布局 */
+  align-items: center; /* 让子元素在交叉轴（垂直方向，如果主轴是水平方向的话）上居中对齐 */
+}
+
+/* 新闻图片样式 */
+.list-item image {
+  width: 250rpx;
+  height: 150rpx;
+  margin: 10rpx;
+  flex-shrink: 0;
+}
+
+/* 新闻文字部分样式 */
+.news-text {
+  display: flex;
+  flex-direction: column; /* 让文字内容纵向排列，标题在上，日期在下 */
+}
+
+.news-title {
+  font-size: 16px; /* 标题字体大小，可按需调整 */
+  font-weight: bold; /* 标题字体加粗，可按需调整 */
+}
+
+.news-date {
+  font-size: 12px; /* 日期字体大小，可按需调整 */
+  color: #999; /* 日期文字颜色设为灰色，可按需调整 */
+}
